@@ -21,7 +21,6 @@ public class SalaryCalculator {
         if(numberOfSales > 10) {
             salary = salary + bonus;
         }
-
         System.out.println("Employee's salary is: $" + salary);
     }
 }
