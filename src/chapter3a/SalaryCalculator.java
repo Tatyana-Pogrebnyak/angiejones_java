@@ -12,13 +12,14 @@ public class SalaryCalculator {
         //1. Get what we know
         int salary = 1000;
         int bonus = 250;
+        int tradeQuota = 10;
 
         //2.Get what we dont know
         System.out.println("Enter a number of sales employee made this week:");
         int numberOfSales = scan.nextInt();
 
         //3. Calculate the result
-        if(numberOfSales > 10) {
+        if(numberOfSales > tradeQuota) {
             salary = salary + bonus;
         }
         System.out.println("Employee's salary is: $" + salary);
