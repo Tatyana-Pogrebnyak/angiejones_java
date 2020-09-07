@@ -21,9 +21,9 @@ public class TradeQuotaCalculator_variant2 {
         //3. Calculate the result
         String message;
         if(actualSales >= mandatorySales) {
-            message = "Congrats!! You made good sales this week! Your sales amount is " + actualSales;
+            message = "Congrats!! You made greate job this week! You made: " + actualSales + " sales.";
         } else {
-            message = "So sad, you have missed this amount of sales: " + (mandatorySales - actualSales);
+            message = "So sad, You did not make your quota. You  missed: " + (mandatorySales - actualSales) + " sales.";
         }
         System.out.println(message);
     }
