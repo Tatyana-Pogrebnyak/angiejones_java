@@ -1,5 +1,4 @@
-package chapter3a;
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+package chapter3;
 
 import java.util.Scanner;
 

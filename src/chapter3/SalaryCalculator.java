@@ -1,4 +1,4 @@
-package chapter3a;
+package chapter3;
 import java.util.Scanner;
 /*
 IF statement.
