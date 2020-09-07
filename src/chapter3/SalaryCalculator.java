@@ -1,10 +1,12 @@
 package chapter3;
 import java.util.Scanner;
+
 /*
 IF statement.
 All Salespeople get a salary of $1000 per week.
 Those who made more that 10 sales get an additional bonus of $250. Let's code this.
  */
+
 public class SalaryCalculator {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
