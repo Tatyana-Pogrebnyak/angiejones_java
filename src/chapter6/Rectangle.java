@@ -17,26 +17,26 @@ public class Rectangle {
     }
 
     //methods
-    double calculatePerimeter(){
+    public double calculatePerimeter(){
         return ((2*length) + (2*width));
     }
-    double calculateArea(){
+    public double calculateArea(){
         return length * width;
     }
 
-    //setting values:
-    void setLength(double length){
+    //setting values: make your setters Public to allow other classes acceess them.
+    public void setLength(double length){
         this.length = length;
     }
-    void setWidth (double width){
+    public void setWidth (double width){
         this.width = width;
     }
 
     //getting values:
-    double getLength(){
+    public double getLength(){
         return length;
     }
-    double getWidth(){
+    public double getWidth(){
         return width;
     }
 }
