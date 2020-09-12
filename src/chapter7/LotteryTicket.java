@@ -10,8 +10,8 @@ public class LotteryTicket {
 
     //Write a method that will generate a randon array of numbers:
 
-    public static int[] generateNumbers(){
-        int[] lotteryTicket = new int[LENGTH];
-
-    }
+//    public static int[] generateNumbers(){
+//        int[] lotteryTicket = new int[LENGTH];
+//
+//    }
 }
