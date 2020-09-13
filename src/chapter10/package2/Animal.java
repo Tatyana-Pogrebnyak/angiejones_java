@@ -1,4 +1,4 @@
-package chapter10;
+package chapter10.package2;
 
 public class Animal {
 
